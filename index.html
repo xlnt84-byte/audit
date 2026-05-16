@@ -1,2 +1,1206 @@
-<h1>Мій аудит</h1>
-<img src="images.jpg" alt="Онлайн шопінг" style="max-width: 100%; height: auto;">
+
+<!doctype html>
+<html lang="uk">
+<head>
+<style data-omelette-injected>html,body{background:transparent}</style><script data-omelette-injected>(()=>{var j=["https://claude.ai","https://preview.claude.ai"];var x=true;var S=30000;var f=3000;document.addEventListener("DOMContentLoaded",()=>{const H=window.Babel;const G="om-src-id";if(H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[G])){H.registerPlugin(G,({types:Y})=>({visitor:{JSXOpeningElement(U,Q){const J=U.node;if(J.name&&J.name.type==="JSXMemberExpression")return;for(let V=0;V<J.attributes.length;V++){const L=J.attributes[V];if(L.type==="JSXAttribute"&&L.name&&L.name.name==="data-om-id")return}const W=Q.file&&Q.file.opts&&Q.file.opts.filename||"?";const Z=J.loc&&J.loc.start;const z=`jsx:${W}:${J.start??0}:${Z?Z.line:0}:${Z?Z.column+1:0}`;J.attributes.push(Y.jsxAttribute(Y.jsxIdentifier("data-om-id"),Y.stringLiteral(z)))}}}))}const k="om-text-extract";let A=false;if(x&&H&&H.registerPlugin&&!(H.availablePlugins&&H.availablePlugins[k])){const Y=window.React;if(Y&&Y.useSyncExternalStore&&Y.createElement){A=true;const U={};const Q=new Set;let J=0;window.__omTextO=U;window.__omTextSet=(z)=>{for(const V in z){const L=z[V];if(L==null)delete U[V];else U[V]=L}J++;Q.forEach((V)=>V())};const W=(z)=>{Q.add(z);return()=>Q.delete(z)};const Z=()=>J;window.__OmT=function z(V){Y.useSyncExternalStore(W,Z,Z);return Y.createElement("span",{"data-om-text":V.i,className:"__om-t"},V.i in U?U[V.i]:V.children)};H.registerPlugin(k,({types:z})=>{const V={style:1,script:1,noscript:1,textarea:1,title:1,option:1,text:1,tspan:1,textPath:1};const L={placeholder:1,alt:1,title:1,label:1,"aria-label":1,"aria-description":1,"aria-placeholder":1};const _=($,C)=>z.logicalExpression("??",z.memberExpression(z.logicalExpression("||",z.memberExpression(z.identifier("window"),z.identifier("__omTextO")),z.objectExpression([])),z.stringLiteral($),true),C);const E=($)=>$.file&&$.file.opts&&$.file.opts.filename||"?";const B=($)=>$.file&&$.file.code||"";const b=($,C)=>{const X=(F)=>F&&F.start!=null&&F.end!=null&&(F.type==="StringLiteral"||F.type==="TemplateLiteral"&&F.expressions.length===0)?[F.start,F.end]:null;const N=X(C);if(N)return N;if(C&&C.type==="Identifier"){const F=$.scope.getBinding(C.name);if(F&&F.constant&&F.path.node.type==="VariableDeclarator"){return X(F.path.node.init)}}return null};const M=($,C,X)=>{const N=$.node;let F=false;const w=(K,q)=>{F=true;return z.jsxElement(z.jsxOpeningElement(z.jsxIdentifier("__OmT"),[z.jsxAttribute(z.jsxIdentifier("i"),z.stringLiteral(K))],false),z.jsxClosingElement(z.jsxIdentifier("__OmT")),[q],false)};const D=N.children.map((K)=>{if(K.type==="JSXText"){if(K.start==null||K.end==null)return K;const q=X.slice(K.start,K.end);const R=q.length-q.trimStart().length;const m=q.length-q.trimEnd().length;if(R+m>=q.length)return K;return w(`txt:${C}:${K.start+R}:${K.end-m}`,K)}if(K.type==="JSXExpressionContainer"){const q=b($,K.expression);if(q)return w(`str:${C}:${q[0]}:${q[1]}`,K)}return K});if(F)N.children=D};return{visitor:{JSXOpeningElement($,C){const X=$.node;const N=E(C);const F={};for(let w=0;w<X.attributes.length;w++){const D=X.attributes[w];if(D.type!=="JSXAttribute"||!D.name)continue;const K=D.name.name;if(!L[K])continue;if(!D.value||D.value.type!=="StringLiteral")continue;if(D.value.start==null||D.value.end==null)continue;const q=`txt:${N}:${D.value.start}:${D.value.end}`;F[K]=q;D.value=z.jsxExpressionContainer(_(q,z.stringLiteral(D.value.value)))}if(Object.keys(F).length){X.attributes.push(z.jsxAttribute(z.jsxIdentifier("data-om-text-attrs"),z.stringLiteral(JSON.stringify(F))))}},JSXElement($,C){const X=$.node.openingElement;const N=X&&X.name&&X.name.name;if(N==="__OmT")return;if(typeof N==="string"&&V[N])return;M($,E(C),B(C))},JSXFragment($,C){M($,E(C),B(C))}}}})}}const u=A?["transform-react-jsx-source",G,k]:["transform-react-jsx-source",G];document.querySelectorAll('script[type="text/babel"],script[type="text/jsx"]').forEach((Y,U)=>{const Q=Y.getAttribute("data-plugins")||"";const J=u.filter((W)=>Q.indexOf(W)<0);if(J.length){Y.setAttribute("data-plugins",Q?`${Q},${J.join(",")}`:J.join(","))}if(!Y.hasAttribute("data-filename")){Y.setAttribute("data-filename",Y.getAttribute("src")||`inline-${U}`)}})});var y=window.parent;if(y&&y!==window){const H=(Q,J)=>{try{y.postMessage({__omelette_log:true,type:Q,data:J},"*")}catch{}};["log","warn","error"].forEach((Q)=>{const J=console[Q];console[Q]=(...W)=>{const Z=W.map((z)=>{try{return typeof z==="object"?JSON.stringify(z):String(z)}catch{try{return String(z)}catch{return"[unstringifiable]"}}}).join(" ");H(Q,Z);J.apply(console,W)}});window.addEventListener("error",(Q)=>{const J=Q.target;if(J&&J!==window&&J.tagName){const W=J.src||J.href||"";H("resource_error",`${J.tagName} failed to load: ${W}`)}else{H("error",`${Q.message||"Unknown error"} at ${Q.filename||"?"}:${Q.lineno||0}:${Q.colno||0}`)}},true);window.addEventListener("unhandledrejection",(Q)=>{const J=Q.reason;const W=J instanceof Error?`${J.message} ${J.stack}`:String(J);H("error",`Unhandled rejection: ${W}`)});const G=()=>{try{y.postMessage({type:"omelette:height",height:document.documentElement.scrollHeight},"*")}catch{}};if(document.readyState==="complete")G();else window.addEventListener("load",G);if(window.ResizeObserver)new ResizeObserver(G).observe(document.documentElement);const k={};let A=0;window.claude={complete(Q){return new Promise((J,W)=>{if(!j.length){W(new Error("claude.complete: no parent origin"));return}const Z=`c${++A}`;const z=()=>setTimeout(()=>{delete k[Z];W(new Error(`claude.complete: no data for ${S/1000}s`))},S);const V=z();k[Z]={resolve:J,reject:W,text:"",t:V,arm:z};try{for(const L of j){y.postMessage({__om_api:true,id:Z,body:Q},L)}}catch(L){clearTimeout(V);delete k[Z];W(L)}})}};const u={};let Y=0;window.omelette={writeFile:(Q,J)=>new Promise((W,Z)=>{if(!j.length){W();return}const z=`f${++Y}`;const V=setTimeout(()=>{delete u[z];W()},f);u[z]={resolve:W,reject:Z,t:V};try{for(const L of j){y.postMessage({__om_file:true,id:z,op:"write",path:Q,content:J},L)}}catch{clearTimeout(V);delete u[z];W()}})};const U=(Q)=>{try{return JSON.stringify(Q)}catch{return JSON.stringify(String(Q))}};window.addEventListener("message",(Q)=>{if(j.indexOf(Q.origin)<0)return;if(Q.source!==y)return;const J=Q.data;if(!J)return;if(J.type==="omelette-preview-refresh"){if(typeof J.token!=="string"||!/^[0-9a-f.-]+$/.test(J.token))return;const z=Math.max(1,Math.floor((J.expiresAt||0)-Date.now()/1000));document.cookie="__Host-omelette-preview="+J.token+"; Path=/; Secure; SameSite=None; Partitioned; Max-Age="+z;return}if(J.__om_file_r){const z=u[J.id];if(!z)return;clearTimeout(z.t);delete u[J.id];if(J.ok)z.resolve();else z.reject(new Error(J.error||"write failed"));return}if(J.__om_api_r){const z=k[J.id];if(!z)return;if(J.error!=null){clearTimeout(z.t);delete k[J.id];z.reject(new Error(J.error));return}if(J.chunk!=null){clearTimeout(z.t);z.t=z.arm();z.text+=J.chunk;return}if(J.done){clearTimeout(z.t);delete k[J.id];z.resolve(J.text!=null?J.text:z.text);return}return}if(!J.__om_eval)return;const W=J;const Z=(z)=>{Q.source.postMessage({...z,__om_eval_r:1,id:W.id},Q.origin)};try{const z=(0,eval)(W.code);if(z&&typeof z.then==="function"){z.then((V)=>Z({ok:1,v:U(V)}),(V)=>Z({ok:0,e:String(V)}))}else{Z({ok:1,v:U(z)})}}catch(z){Z({ok:0,e:String(z)})}})}})();
+</script>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Мемоплекс · Дизайн-аудит, dark patterns, мудборд</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream:   #F4EFE6;
+    --paper:   #FAF6EE;
+    --ink:     #161210;
+    --ink-60:  rgba(22, 18, 16, .62);
+    --ink-40:  rgba(22, 18, 16, .42);
+    --ink-15:  rgba(22, 18, 16, .12);
+    --rule:    rgba(22, 18, 16, .14);
+    --teal:    #0E5C55;
+    --coral:   #E25668;
+    --mustard: #D9A24C;
+    --fog:     #E3DBCB;
+  }
+  html, body { margin: 0; padding: 0; background: var(--cream); color: var(--ink); }
+  body {
+    font-family: 'Manrope', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  * { box-sizing: border-box; }
+  ::selection { background: var(--coral); color: #fff; }
+
+  h1, h2, h3, h4, .display {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .it { font-style: italic; font-weight: 500; }
+
+  .mono {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-40);
+  }
+
+  /* ───── layout ───── */
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 48px; }
+  @media (max-width: 760px) { .wrap { padding: 0 22px; } }
+  .rule { border-top: 1px solid var(--rule); }
+
+  /* ───── topbar ───── */
+  .top {
+    position: sticky; top: 0; z-index: 30;
+    background: rgba(244, 239, 230, 0.92);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .top-inner {
+    display: flex; align-items: center; gap: 28px;
+    padding: 14px 0;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-mark { position: relative; width: 22px; height: 22px; }
+  .brand-mark span { position: absolute; border-radius: 50%; }
+  .brand-mark .a { inset: 0; background: var(--teal); }
+  .brand-mark .b { right: -4px; top: 1px; width: 14px; height: 14px; background: var(--coral); mix-blend-mode: multiply; opacity: .9; }
+  .brand-name { font-family: 'Newsreader', serif; font-style: italic; font-size: 17px; letter-spacing: -0.02em; }
+  nav.top-nav { display: flex; gap: 22px; margin-left: auto; }
+  nav.top-nav a {
+    color: var(--ink-60); text-decoration: none;
+    font-size: 13px; font-weight: 500;
+    transition: color .15s;
+  }
+  nav.top-nav a:hover { color: var(--ink); }
+  nav.top-nav a.active { color: var(--ink); }
+  nav.top-nav a .num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--ink-40); margin-right: 6px;
+    letter-spacing: 0.06em;
+  }
+
+  /* ───── hero ───── */
+  .hero { padding: 88px 0 56px; }
+  .hero .kicker { color: var(--coral); margin-bottom: 14px; }
+  .hero h1 {
+    font-size: clamp(46px, 7vw, 92px);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    margin-bottom: 32px;
+    text-wrap: balance;
+  }
+  .hero h1 .em { font-style: italic; font-weight: 500; color: var(--coral); }
+  .hero h1 .ink { font-weight: 600; }
+  .meta-row {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+    padding: 32px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-top: 40px;
+  }
+  @media (max-width: 760px) { .meta-row { grid-template-columns: 1fr 1fr; } }
+  .meta dt { color: var(--ink-40); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+  .meta dd { margin: 0; font-size: 15px; font-weight: 500; }
+
+  /* ───── section common ───── */
+  section.main { padding: 96px 0; border-top: 1px solid var(--rule); }
+  .sec-head { display: grid; grid-template-columns: 80px 1fr; gap: 32px; margin-bottom: 72px; align-items: start; }
+  @media (max-width: 760px) { .sec-head { grid-template-columns: 1fr; gap: 12px; } }
+  .sec-num {
+    font-family: 'Newsreader', serif; font-style: italic;
+    font-size: 64px; line-height: 1; color: var(--coral); letter-spacing: -0.04em;
+  }
+  .sec-title h2 { font-size: clamp(34px, 4.5vw, 54px); line-height: 1.06; letter-spacing: -0.02em; margin-bottom: 14px; }
+  .sec-title h2 .it { color: var(--ink-60); }
+  .sec-title p { color: var(--ink-60); font-size: 17px; max-width: 640px; margin: 0; line-height: 1.55; }
+
+  /* ───── frames grid (section 1) ───── */
+  .frames { display: grid; grid-template-columns: repeat(2, 1fr); gap: 36px; }
+  @media (max-width: 880px) { .frames { grid-template-columns: 1fr; } }
+  .frame {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 28px 28px 24px;
+    position: relative;
+  }
+  .frame .pill {
+    display: inline-block;
+    border: 1px solid var(--rule);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px; font-weight: 500; color: var(--ink-60);
+    margin-bottom: 18px;
+  }
+  .frame h3 { font-size: 26px; letter-spacing: -0.015em; line-height: 1.15; margin-bottom: 14px; }
+  .frame h3 .it { color: var(--coral); }
+  .frame .lead { color: var(--ink-60); font-size: 14.5px; line-height: 1.55; margin-bottom: 22px; }
+  .frame ul.findings { list-style: none; padding: 0; margin: 0; }
+  .frame ul.findings li {
+    display: grid; grid-template-columns: 28px 1fr;
+    gap: 8px; padding: 12px 0;
+    border-top: 1px dashed var(--rule);
+    font-size: 14px; line-height: 1.5;
+  }
+  .frame ul.findings .idx {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--ink-40); padding-top: 3px;
+  }
+  .frame ul.findings .lbl { color: var(--ink); }
+  .frame ul.findings .lbl strong { font-weight: 600; }
+  .frame ul.findings .lbl em {
+    display: block; font-style: normal; color: var(--ink-60);
+    margin-top: 3px; font-size: 13px;
+  }
+  .frame .score {
+    margin-top: 22px; padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 12px; color: var(--ink-60);
+  }
+  .bar { display: inline-flex; gap: 3px; margin-left: 10px; }
+  .bar span { width: 10px; height: 14px; background: var(--rule); }
+  .bar span.on { background: var(--coral); }
+
+  /* ───── dark patterns ───── */
+  .dp { display: flex; flex-direction: column; gap: 0; }
+  .dp-row {
+    display: grid; grid-template-columns: 110px 1fr 220px;
+    gap: 36px;
+    padding: 36px 0;
+    border-top: 1px solid var(--rule);
+    align-items: start;
+  }
+  .dp-row:last-child { border-bottom: 1px solid var(--rule); }
+  @media (max-width: 880px) { .dp-row { grid-template-columns: 1fr; gap: 18px; } }
+  .dp-num {
+    font-family: 'Newsreader', serif; font-style: italic;
+    font-size: 52px; line-height: 1; color: var(--ink-15);
+    letter-spacing: -0.04em;
+  }
+  .dp-body h4 {
+    font-size: 28px; line-height: 1.15; letter-spacing: -0.015em;
+    margin-bottom: 10px;
+  }
+  .dp-body h4 .it { color: var(--coral); }
+  .dp-body .what {
+    color: var(--ink); font-size: 15px; line-height: 1.55; margin-bottom: 14px; max-width: 580px;
+  }
+  .dp-body .why {
+    background: rgba(226, 86, 104, 0.06);
+    border-left: 3px solid var(--coral);
+    padding: 12px 16px;
+    font-size: 14px; line-height: 1.55; color: var(--ink);
+    max-width: 580px;
+  }
+  .dp-body .why::before {
+    content: 'Чому це шкодить';
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--coral);
+    margin-bottom: 6px;
+  }
+  .dp-side {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    padding: 16px 18px;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+  .dp-side dt {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--ink-40);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .dp-side dd { margin: 0 0 12px; }
+  .dp-side dd:last-child { margin-bottom: 0; }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px; border-radius: 999px;
+    background: rgba(226, 86, 104, 0.12); color: var(--coral);
+    font-size: 11px; font-weight: 600;
+  }
+  .tag.t { background: rgba(14, 92, 85, 0.12); color: var(--teal); }
+  .tag.m { background: rgba(217, 162, 76, 0.18); color: #8B6314; }
+
+  /* ───── moodboard ───── */
+  .moodboard { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
+  @media (max-width: 880px) { .moodboard { grid-template-columns: repeat(6, 1fr); } }
+  .ref { position: relative; overflow: hidden; }
+  .ref .preview {
+    width: 100%; aspect-ratio: 4 / 3;
+    position: relative; overflow: hidden;
+    border: 1px solid var(--rule);
+  }
+  .ref .meta { padding: 12px 0 0; }
+  .ref .meta .num-name { display: flex; gap: 10px; align-items: baseline; margin-bottom: 4px; }
+  .ref .meta .num { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-40); letter-spacing: 0.06em; }
+  .ref .meta h4 { font-size: 17px; letter-spacing: -0.01em; }
+  .ref .meta .what { font-size: 12.5px; color: var(--ink-60); line-height: 1.45; margin-top: 4px; }
+  .ref .meta .url { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-40); margin-top: 6px; }
+
+  .span-4 { grid-column: span 4; }
+  .span-3 { grid-column: span 3; }
+  .span-6 { grid-column: span 6; }
+  @media (max-width: 880px) {
+    .span-4, .span-3, .span-6 { grid-column: span 3; }
+  }
+
+  /* ───── tokens & type ───── */
+  .tokens-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; margin-top: 64px; }
+  @media (max-width: 880px) { .tokens-grid { grid-template-columns: 1fr; gap: 36px; } }
+  .panel h3 { font-size: 22px; letter-spacing: -0.01em; margin-bottom: 6px; }
+  .panel .panel-lead { color: var(--ink-60); font-size: 13.5px; margin-bottom: 20px; }
+  .swatch-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 18px; }
+  .swatch { border: 1px solid var(--rule); padding: 0; overflow: hidden; }
+  .swatch .chip { aspect-ratio: 1.5 / 1; }
+  .swatch .lbl { padding: 8px 10px 9px; font-size: 11.5px; }
+  .swatch .lbl b { display: block; font-weight: 600; margin-bottom: 2px; font-size: 12px; }
+  .swatch .lbl .hex { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-40); }
+
+  .scale-row { display: flex; gap: 8px; align-items: flex-end; margin-bottom: 18px; }
+  .scale-row .step { background: var(--paper); border: 1px solid var(--rule); }
+  .scale-row .step .lbl { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-40); padding: 4px 6px; }
+
+  .radii-row { display: flex; gap: 14px; align-items: center; margin-bottom: 16px; }
+  .radii-row .rb { width: 56px; height: 56px; background: var(--teal); display: flex; align-items: center; justify-content: center; color: #fff; font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+
+  .type-spec { background: var(--paper); border: 1px solid var(--rule); padding: 28px; margin-bottom: 14px; }
+  .type-spec .label { display: flex; justify-content: space-between; margin-bottom: 12px; }
+  .type-spec .sample-display { font-family: 'Newsreader', serif; font-style: italic; font-weight: 500; font-size: 56px; line-height: 1; letter-spacing: -0.025em; }
+  .type-spec .sample-body { font-family: 'Manrope', sans-serif; font-size: 17px; line-height: 1.5; color: var(--ink); }
+  .type-spec .sample-mono { font-family: 'JetBrains Mono', monospace; font-size: 14px; }
+
+  /* ───── prompt section ───── */
+  .prompt-box {
+    background: var(--ink); color: #ECE7DD;
+    border-radius: 4px;
+    padding: 36px 40px;
+    margin-top: 40px;
+    position: relative;
+  }
+  .prompt-box .prompt-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; }
+  .prompt-box .prompt-head .l {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    color: var(--mustard); letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .prompt-box .prompt-head .copy-btn {
+    background: rgba(255,255,255,.08); border: none; color: #ECE7DD;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    padding: 6px 12px; border-radius: 999px; cursor: pointer;
+    transition: background .12s;
+  }
+  .prompt-box .prompt-head .copy-btn:hover { background: rgba(255,255,255,.16); }
+  .prompt-box pre {
+    margin: 0; padding: 0; white-space: pre-wrap;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px; line-height: 1.55;
+    color: #ECE7DD;
+  }
+  .prompt-box pre .c { color: rgba(236, 231, 221, .42); }
+  .prompt-box pre .k { color: var(--mustard); }
+  .prompt-box pre .v { color: #E8B98E; }
+
+  /* ───── footer ───── */
+  footer { padding: 64px 0 80px; border-top: 1px solid var(--rule); margin-top: 80px; }
+  footer .f-row { display: flex; justify-content: space-between; align-items: baseline; }
+  footer .f-row .l { font-family: 'Newsreader', serif; font-style: italic; font-size: 22px; color: var(--ink); }
+  footer .f-row .r { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-40); letter-spacing: 0.05em; }
+
+  /* anchors */
+  .anchor { display: block; position: relative; top: -80px; visibility: hidden; }
+
+  /* ───── PRINT ───── */
+  @media print {
+    @page { size: A4 portrait; margin: 16mm 14mm; }
+    html, body {
+      background: #fff !important;
+      color: #161210 !important;
+      font-size: 10.5pt;
+      line-height: 1.5;
+    }
+    * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+    .top { display: none !important; }
+    .anchor { display: none !important; }
+    .wrap { max-width: 100%; padding: 0; }
+
+    .hero { padding: 0 0 18mm; }
+    .hero h1 { font-size: 36pt; line-height: 1.05; margin-bottom: 14mm; }
+    .meta-row { grid-template-columns: repeat(4, 1fr); padding: 6mm 0; margin-top: 8mm; gap: 16px; }
+    .meta dt { font-size: 8pt; }
+    .meta dd { font-size: 10pt; }
+
+    section.main { padding: 0; border: none; break-before: page; }
+    .sec-head { grid-template-columns: 50pt 1fr; gap: 18pt; margin-bottom: 12mm; }
+    .sec-num { font-size: 40pt; }
+    .sec-title h2 { font-size: 24pt; line-height: 1.05; }
+    .sec-title p { font-size: 11pt; }
+
+    /* Frames — 2 cols, тримаємо разом */
+    .frames { gap: 6mm; }
+    .frame { padding: 8mm; break-inside: avoid; background: #FAF6EE !important; border: 1px solid rgba(0,0,0,.12) !important; }
+    .frame h3 { font-size: 14pt; line-height: 1.2; margin-bottom: 6pt; }
+    .frame .lead { font-size: 9.5pt; margin-bottom: 10pt; }
+    .frame ul.findings li { padding: 6pt 0; font-size: 9.5pt; }
+    .frame .pill { margin-bottom: 8pt; font-size: 8pt; padding: 2pt 6pt; }
+    /* Останній фрейм (брендова консистентність) — на нову сторінку щоб не різати */
+    .frame[style*="grid-column: span 2"] { break-before: page; }
+
+    /* Dark patterns — кожний рядок цілий */
+    .dp-row { padding: 8mm 0; gap: 14pt; grid-template-columns: 60pt 1fr 180pt; break-inside: avoid; }
+    .dp-num { font-size: 32pt; }
+    .dp-body h4 { font-size: 15pt; margin-bottom: 6pt; }
+    .dp-body .what { font-size: 10pt; margin-bottom: 8pt; }
+    .dp-body .why { font-size: 9.5pt; padding: 6pt 10pt; background: rgba(226,86,104,.08) !important; }
+    .dp-side { padding: 8pt 10pt; font-size: 9pt; background: #FAF6EE !important; }
+
+    /* Moodboard — 4 в ряд, ціла секція */
+    .moodboard { gap: 6mm; }
+    .ref { break-inside: avoid; }
+    .span-3 { grid-column: span 3; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .ref .preview { aspect-ratio: 4 / 3; border: 1px solid rgba(0,0,0,.15) !important; }
+    .ref .meta h4 { font-size: 11pt; }
+    .ref .meta .what { font-size: 9pt; }
+    .ref .meta .url { font-size: 8pt; }
+
+    .tokens-grid { gap: 10mm; margin-top: 10mm; break-before: page; }
+    .panel h3 { font-size: 13pt; }
+    .panel .panel-lead { font-size: 9.5pt; }
+    .swatch-row { gap: 4pt; margin-bottom: 8pt; }
+    .swatch .chip { aspect-ratio: 1.5/1; }
+    .swatch .lbl { font-size: 8pt; padding: 4pt 6pt; }
+    .swatch .lbl b { font-size: 9pt; }
+    .swatch .lbl .hex { font-size: 7.5pt; }
+    .scale-row { margin-bottom: 8pt; }
+    .radii-row .rb { width: 38pt; height: 38pt; font-size: 8pt; }
+    .type-spec { padding: 10pt 12pt; margin-bottom: 6pt; break-inside: avoid; background: #FAF6EE !important; }
+    .type-spec .sample-display { font-size: 30pt; }
+    .type-spec .sample-body { font-size: 11pt; }
+    .type-spec .sample-mono { font-size: 10pt; }
+
+    /* Claude Code prompt — окрема сторінка, інверсія для друку */
+    .prompt-box {
+      background: #161210 !important;
+      color: #ECE7DD !important;
+      padding: 12mm;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .prompt-box .copy-btn { display: none !important; }
+    .prompt-box pre { font-size: 8.5pt; line-height: 1.55; }
+    .prompt-box pre .v, .prompt-box pre .k, .prompt-box pre .c { color: inherit; }
+    .prompt-box pre .v { color: #E8B98E !important; }
+    .prompt-box pre .k { color: #D9A24C !important; }
+    .prompt-box pre .c { opacity: 0.5; }
+
+    footer { padding: 8mm 0 0; margin-top: 8mm; break-inside: avoid; }
+    footer .f-row .l { font-size: 11pt; }
+    footer .f-row .r { font-size: 8pt; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <div class="brand-mark"><span class="a"></span><span class="b"></span></div>
+      <div class="brand-name">Мемоплекс / аудит</div>
+    </div>
+    <nav class="top-nav">
+      <a href="#critique"><span class="num">01</span>Критика</a>
+      <a href="#patterns"><span class="num">02</span>Dark patterns</a>
+      <a href="#moodboard"><span class="num">03</span>Мудборд</a>
+      <a href="#prompt"><span class="num">04</span>Claude Code</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ─────────── HERO ─────────── -->
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker mono">Дизайн-аудит · 16.05.2026</div>
+    <h1>
+      Чесна <span class="em">критика</span> того, що ми<br>
+      зробили — і <span class="ink">куди</span> йде далі.
+    </h1>
+
+    <div class="meta-row">
+      <dl class="meta">
+        <dt>Об'єкт</dt>
+        <dd>Мемоплекс v0.1</dd>
+      </dl>
+      <dl class="meta">
+        <dt>Стек рамок</dt>
+        <dd>5 фреймворків</dd>
+      </dl>
+      <dl class="meta">
+        <dt>Знайдено патернів</dt>
+        <dd>5 темних · 19 проблем</dd>
+      </dl>
+      <dl class="meta">
+        <dt>Референсів</dt>
+        <dd>10 у мудборді</dd>
+      </dl>
+    </div>
+  </div>
+</header>
+
+<!-- ─────────── SECTION 01: КРИТИКА ─────────── -->
+<span class="anchor" id="critique"></span>
+<section class="main">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">01</div>
+      <div class="sec-title">
+        <h2>Критика через <span class="it">рамки</span></h2>
+        <p>П'ять перевірених інструментів, прикладених до реального стану Мемоплексу. Без вибачень: продукт ще сирий, і це нормально — головне зафіксувати, що саме болить.</p>
+      </div>
+    </div>
+
+    <div class="frames">
+
+      <!-- Frame 1: Nielsen Heuristics -->
+      <article class="frame">
+        <span class="pill">Рамка 01 · Nielsen Heuristics (10)</span>
+        <h3>Юзабіліті <span class="it">«за класикою»</span></h3>
+        <p class="lead">Десять евристик Якоба Нільсена — найдешевший і найшвидший фільтр для будь-якого інтерфейсу. Перевіряємо що пройшло, що ні.</p>
+        <ul class="findings">
+          <li>
+            <span class="idx">H4</span>
+            <span class="lbl"><strong>Категорії — латиницею.</strong> <em>«tvaryny», «lokalni» у URL читаються нормально, але всередині це cognitive friction: ментальна модель «українські меми» бʼється з англо-слаговою системою.</em></span>
+          </li>
+          <li>
+            <span class="idx">H8</span>
+            <span class="lbl"><strong>Естетичний мінімалізм провалено.</strong> <em>У хедері одночасно: лого + 5 nav + кнопка + 4 категорії + пошук + 3 сорту. 14 інтерактивних точок на 80 px висоти.</em></span>
+          </li>
+          <li>
+            <span class="idx">H1</span>
+            <span class="lbl"><strong>Видимість стану.</strong> <em>«HOT» badge на першому мемі — без пояснень як він обчислюється. Користувач не розуміє, чому саме цей пост — гарячий.</em></span>
+          </li>
+          <li>
+            <span class="idx">H5</span>
+            <span class="lbl"><strong>Запобігання помилкам.</strong> <em>Модалка завантаження приймає файл, валідує тип і вагу — це добре. Але не показує превʼю заздалегідь і не дозволяє відмінити після надсилання боту.</em></span>
+          </li>
+          <li>
+            <span class="idx">H10</span>
+            <span class="lbl"><strong>Допомога.</strong> <em>«Про нас» розповідає що це — але не як це використовувати. Нема first-run hints, нема FAQ. Гість приходить і одразу плаває.</em></span>
+          </li>
+        </ul>
+        <div class="score">
+          <span>Стан рамки</span>
+          <span class="bar">
+            <span class="on"></span><span class="on"></span><span class="on"></span><span></span><span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- Frame 2: JTBD -->
+      <article class="frame">
+        <span class="pill">Рамка 02 · Jobs-to-be-Done</span>
+        <h3>Заради чого <span class="it">наймають</span> продукт?</h3>
+        <p class="lead">Якщо користувач «нанімає» Мемоплекс на якусь роботу — на яку? І чи виконуємо ми її швидше за конкурентів (Telegram, Reddit, Instagram).</p>
+        <ul class="findings">
+          <li>
+            <span class="idx">J1</span>
+            <span class="lbl"><strong>«Хочу 5 хв гумору в перерві».</strong> <em>Стрічка відкривається на 600+ мс. Telegram-канал відкривається за 100 мс. Job not delivered.</em></span>
+          </li>
+          <li>
+            <span class="idx">J2</span>
+            <span class="lbl"><strong>«Хочу поділитися мемом з другом».</strong> <em>«Поділитися» копіює лінк на Reddit, а не на Мемоплекс. Тобто продукт сам відсилає трафік до конкурента.</em></span>
+          </li>
+          <li>
+            <span class="idx">J3</span>
+            <span class="lbl"><strong>«Хочу побачити що нового в IT-мемах».</strong> <em>Фільтр /it працює, але джерело одне — r/ProgrammerHumor. Якщо людина вже там, ми не додаємо цінності.</em></span>
+          </li>
+          <li>
+            <span class="idx">J4</span>
+            <span class="lbl"><strong>«Хочу опублікувати свій мем».</strong> <em>Завантаження → бот → Чат. Але незрозуміло хто його там побачить, чи буде охоплення, чи це назавжди.</em></span>
+          </li>
+          <li>
+            <span class="idx">J5</span>
+            <span class="lbl"><strong>«Хочу зберігати улюблені».</strong> <em>Like не зберігає в bookmark, нема розділу «Збережене». Лайк не має наслідків.</em></span>
+          </li>
+        </ul>
+        <div class="score">
+          <span>Стан рамки</span>
+          <span class="bar">
+            <span class="on"></span><span class="on"></span><span></span><span></span><span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- Frame 3: Cognitive Load -->
+      <article class="frame">
+        <span class="pill">Рамка 03 · Cognitive Load</span>
+        <h3>Скільки <span class="it">мислення</span> ми вимагаємо?</h3>
+        <p class="lead">Sweller et al.: працювальна памʼять — 4±1 елемент. Скільки одночасних рішень ми просимо прийняти на першому екрані?</p>
+        <ul class="findings">
+          <li>
+            <span class="idx">L1</span>
+            <span class="lbl"><strong>Перший екран = 8 виборів.</strong> <em>5 розділів + 5 категорій + 3 сорти + пошук + лайк + share + comment + click-to-open. Перевищення «4±1» більше ніж удвічі.</em></span>
+          </li>
+          <li>
+            <span class="idx">L2</span>
+            <span class="lbl"><strong>«Hot vs Fresh vs Top».</strong> <em>У трьох ярликах два — синоніми у голові користувача. Без мікротексту-пояснення це загадка, не вибір.</em></span>
+          </li>
+          <li>
+            <span class="idx">L3</span>
+            <span class="lbl"><strong>Безкінечна стрічка без меж.</strong> <em>Нема «сесійних якорів» — «ти бачив усе за день», «10 нових з твоєї підписки». Юзер не знає, коли можна закрити.</em></span>
+          </li>
+          <li>
+            <span class="idx">L4</span>
+            <span class="lbl"><strong>Hero ≠ найкраще.</strong> <em>Перший великий мем — це просто перший у відповіді Reddit, не куратований. Юзер це швидко відчуває, і довіра до «куратора» падає.</em></span>
+          </li>
+        </ul>
+        <div class="score">
+          <span>Стан рамки</span>
+          <span class="bar">
+            <span class="on"></span><span class="on"></span><span></span><span></span><span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- Frame 4: Accessibility -->
+      <article class="frame">
+        <span class="pill">Рамка 04 · WCAG 2.2 / a11y</span>
+        <h3>Хто <span class="it">не може</span> користуватись?</h3>
+        <p class="lead">Швидкий обхід найважливіших чек-пунктів: контраст, навігація з клавіатури, скрін-рідер, prefers-reduced-motion.</p>
+        <ul class="findings">
+          <li>
+            <span class="idx">A1</span>
+            <span class="lbl"><strong>Контраст вторинного тексту.</strong> <em>rgba(14,14,18,.45) на FAFBF9 = 3.5:1. Не проходить навіть AA для дрібного тексту (потрібно ≥4.5:1).</em></span>
+          </li>
+          <li>
+            <span class="idx">A2</span>
+            <span class="lbl"><strong>Кнопки-іконки без імен.</strong> <em>Лайк/share/comment рендеряться як ❤️🔗💬 без aria-label. Скрін-рідер прочитає «button» × 3.</em></span>
+          </li>
+          <li>
+            <span class="idx">A3</span>
+            <span class="lbl"><strong>Зміна View не оголошується.</strong> <em>Перехід /feed → /channels через pushState. SPA-навігація мовчить для AT — нема live region.</em></span>
+          </li>
+          <li>
+            <span class="idx">A4</span>
+            <span class="lbl"><strong>Лоадер крутиться 24/7.</strong> <em>Спінер ігнорує prefers-reduced-motion. Для людей з вестибулярною чутливістю — пастка.</em></span>
+          </li>
+        </ul>
+        <div class="score">
+          <span>Стан рамки</span>
+          <span class="bar">
+            <span class="on"></span><span></span><span></span><span></span><span></span>
+          </span>
+        </div>
+      </article>
+
+      <!-- Frame 5: Brand consistency -->
+      <article class="frame" style="grid-column: span 2;">
+        <span class="pill">Рамка 05 · Brand consistency</span>
+        <h3>Наскільки ми <span class="it">собою</span> залишаємось?</h3>
+        <p class="lead">Бренд — це обіцянка. Якщо в одному місці ми «дружнє редакційне видання про український гумор», а в іншому «вторинна reddit-стрічка з гачком на upvotes» — це різні продукти всередині одного домена.</p>
+        <ul class="findings">
+          <li>
+            <span class="idx">B1</span>
+            <span class="lbl"><strong>Назва бʼється з реальністю.</strong> <em>«Мемоплекс — нові українські меми». Фактично: r/ProgrammerHumor, r/Eyebleach, r/AnimalsBeingDerps — англомовні. r/ukraina — російськомовний.</em></span>
+          </li>
+          <li>
+            <span class="idx">B2</span>
+            <span class="lbl"><strong>«HOT» бейдж — чужий мовою.</strong> <em>В україномовному UI вкраплений ALL-CAPS англіцизм. Дрібна неконсистентність, але вона є.</em></span>
+          </li>
+          <li>
+            <span class="idx">B3</span>
+            <span class="lbl"><strong>Голос у різних місцях різний.</strong> <em>В About — «Меми, які хочеться зберегти» (поетично). В картці завантаження — «Бот перевіряє…» (службово). У 404 — нема голосу взагалі.</em></span>
+          </li>
+          <li>
+            <span class="idx">B4</span>
+            <span class="lbl"><strong>Логотип ламається на dark.</strong> <em>Mix-blend-mode multiply на коралі дає брудно-сірий замість контрасту. Не передбачена темна тема.</em></span>
+          </li>
+          <li>
+            <span class="idx">B5</span>
+            <span class="lbl"><strong>Друге коло палітри — порожнє.</strong> <em>Є teal + coral, але нема того, що ріже їх насиченістю чи дає простір (нейтральні, дисплейний шрифт-італік).</em></span>
+          </li>
+        </ul>
+        <div class="score">
+          <span>Стан рамки</span>
+          <span class="bar">
+            <span class="on"></span><span class="on"></span><span></span><span></span><span></span>
+          </span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── SECTION 02: DARK PATTERNS ─────────── -->
+<span class="anchor" id="patterns"></span>
+<section class="main">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">02</div>
+      <div class="sec-title">
+        <h2>П'ять <span class="it">темних патернів</span> у Мемоплексі</h2>
+        <p>Усі — ненавмисні, частина — успадкована з Reddit як джерела, частина — наш свідомий вибір, який варто переглянути. Класифікація — за <span class="it">Brignull / Mathur</span>.</p>
+      </div>
+    </div>
+
+    <div class="dp">
+
+      <!-- DP 1 -->
+      <div class="dp-row">
+        <div class="dp-num">01</div>
+        <div class="dp-body">
+          <h4>Штучна <span class="it">терміновість</span> через таймстампи</h4>
+          <p class="what">На кожній картці «14 хв тому · 32 хв тому · 1 год тому». Таймстампи беруться з Reddit без перепрорахунку — пост може бути 14 хв тому за UTC і 4 год за нашим часом. Плюс «HOT»-бейдж — без обʼєктивного критерію.</p>
+          <div class="why">Створює false urgency: «треба гортати зараз, бо завтра воно вже не актуальне». Кожен запуск читає 12 мемів — це 12 малих доз дофаміну від «свіжості», яка насправді не свіжість.</div>
+        </div>
+        <dl class="dp-side">
+          <dt>Brignull-категорія</dt>
+          <dd><span class="tag">Urgency / Scarcity</span></dd>
+          <dt>Де знайти у коді</dt>
+          <dd><span class="mono">relativeTime() · HOT badge</span></dd>
+          <dt>Як виправити</dt>
+          <dd>Прибрати «HOT». Замість «14 хв тому» — «зранку, 7:30», даючи реальний контекст без тиску.</dd>
+        </dl>
+      </div>
+
+      <!-- DP 2 -->
+      <div class="dp-row">
+        <div class="dp-num">02</div>
+        <div class="dp-body">
+          <h4>Нескінченна стрічка <span class="it">без кінця сесії</span></h4>
+          <p class="what">IntersectionObserver підвантажує ще 7 мемів кожні 300 px скролу. Нема «You're all caught up». Нема «Ти бачив усе нове за сьогодні». Нема пауз. Контент із Reddit не закінчується — потенційно нескінченна сесія.</p>
+          <div class="why">Класична time-on-site oптимізація на шкоду користувачу. Молодь і люди з ADHD — вразливіша група. Час, що тут, не сприймається як «обраний час».</div>
+        </div>
+        <dl class="dp-side">
+          <dt>Brignull-категорія</dt>
+          <dd><span class="tag">Forced Continuity</span></dd>
+          <dt>Де знайти у коді</dt>
+          <dd><span class="mono">useInfiniteScroll() · pageSize=7</span></dd>
+          <dt>Як виправити</dt>
+          <dd>«Денний раціон» — 30 мемів і стоп: «Більше завтра». Прогрес-бар внизу.</dd>
+        </dl>
+      </div>
+
+      <!-- DP 3 -->
+      <div class="dp-row">
+        <div class="dp-num">03</div>
+        <div class="dp-body">
+          <h4><span class="it">Bait & switch</span> у позиціонуванні</h4>
+          <p class="what">Назва: «Мемоплекс — нові українські меми». Реальність: 4 з 5 джерел — англомовні саби (Eyebleach, ProgrammerHumor, AnimalsBeingDerps, sportsmemes). Категорія «Локальні» = r/ukraina, де переважно репости з російським текстом.</p>
+          <div class="why">Користувач приходить за українським контентом — отримує те, що міг би знайти на Reddit самостійно. Підриває довіру до бренду і до самої локальної мем-сцени, яку ми нібито підтримуємо.</div>
+        </div>
+        <dl class="dp-side">
+          <dt>Brignull-категорія</dt>
+          <dd><span class="tag m">Misleading</span></dd>
+          <dt>Де знайти у коді</dt>
+          <dd><span class="mono">REDDIT_SOURCES[] · title meta</span></dd>
+          <dt>Як виправити</dt>
+          <dd>Або реальні укр-джерела (TG-канали), або чесна назва: «Мемоплекс — стрічка свіжих мемів».</dd>
+        </dl>
+      </div>
+
+      <!-- DP 4 -->
+      <div class="dp-row">
+        <div class="dp-num">04</div>
+        <div class="dp-body">
+          <h4>Фальшиві <span class="it">соціальні докази</span></h4>
+          <p class="what">Кількість лайків у картках — це Reddit upvotes, відрендерені як ❤️ Мемоплексу. Кнопка «Підписатися» в картці каналу — лише UI-стейт, нічого не зберігає. «4.8k» виглядає як наша спільнота — її поки нема.</p>
+          <div class="why">Класичне fake engagement. Користувач думає, що приєднується до живої аудиторії — реально розмовляє сам із собою через Reddit-проксі. У момент відкриття правди — це шкодить більше, ніж нульові лічильники від початку.</div>
+        </div>
+        <dl class="dp-side">
+          <dt>Brignull-категорія</dt>
+          <dd><span class="tag t">Fake Social Proof</span></dd>
+          <dt>Де знайти у коді</dt>
+          <dd><span class="mono">likes={p.ups} · subscribe button</span></dd>
+          <dt>Як виправити</dt>
+          <dd>Підписати: «❤️ 4.8k на Reddit». Кнопку «Підписатися» — або зробити робочою, або зняти.</dd>
+        </dl>
+      </div>
+
+      <!-- DP 5 -->
+      <div class="dp-row">
+        <div class="dp-num">05</div>
+        <div class="dp-body">
+          <h4>«Поділитися» <span class="it">не нашим</span> посиланням</h4>
+          <p class="what">Кнопка «Поділитися» копіює <span class="mono">reddit.com/r/.../comments/...</span>, а не <span class="mono">memoplex.app/m/[id]</span>. Тост: «Посилання скопійовано» — але посилання насправді чуже.</p>
+          <div class="why">Подвійна проблема. Перша — оманливий UX (тост не каже, куди веде лінк). Друга — Мемоплекс віддає весь vyralization-трафік Reddit. Якщо хтось перейде з твого Telegram — він піде не до нас.</div>
+        </div>
+        <dl class="dp-side">
+          <dt>Brignull-категорія</dt>
+          <dd><span class="tag m">Misleading</span></dd>
+          <dt>Де знайти у коді</dt>
+          <dd><span class="mono">share() → meme.permalink</span></dd>
+          <dt>Як виправити</dt>
+          <dd>Шерити <span class="mono">/m/[id]</span> з OG-превʼю. Кнопка «Source» — окремо.</dd>
+        </dl>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ─────────── SECTION 03: MOODBOARD ─────────── -->
+<span class="anchor" id="moodboard"></span>
+<section class="main">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">03</div>
+      <div class="sec-title">
+        <h2>Мудборд для <span class="it">редизайну лендингу</span></h2>
+        <p>Десять референсів, які тримають разом одну ідею: <span class="it">меми як редакційний жанр</span>. Не TikTok-стрічка, не Reddit-feed — а вічірня газета українського гумору, з підбіркою, голосом і ритмом.</p>
+      </div>
+    </div>
+
+    <div class="moodboard">
+
+      <!-- Ref 01 — Are.na -->
+      <div class="ref span-4">
+        <div class="preview" style="background: #f8f5ed;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#f8f5ed"/>
+            <line x1="40" y1="60" x2="360" y2="60" stroke="#222" stroke-width="0.5"/>
+            <text x="40" y="48" font-family="Times" font-size="14" fill="#222">Are.na — Channels · 1283</text>
+            <g font-family="Times" font-size="11" fill="#444">
+              <rect x="40" y="80" width="92" height="92" fill="#e8e2d4" stroke="#222" stroke-width="0.4"/>
+              <rect x="142" y="80" width="92" height="92" fill="#d2cdc3" stroke="#222" stroke-width="0.4"/>
+              <rect x="244" y="80" width="92" height="92" fill="#cfc9b7" stroke="#222" stroke-width="0.4"/>
+              <rect x="40" y="184" width="92" height="92" fill="#dad3c1" stroke="#222" stroke-width="0.4"/>
+              <rect x="142" y="184" width="92" height="92" fill="#e8e2d4" stroke="#222" stroke-width="0.4"/>
+              <rect x="244" y="184" width="92" height="92" fill="#bcb6a3" stroke="#222" stroke-width="0.4"/>
+              <text x="40" y="200" fill="#222" opacity="0.7" font-size="9">Channel · 47 blocks</text>
+              <text x="142" y="200" fill="#222" opacity="0.7" font-size="9">Channel · 12 blocks</text>
+            </g>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">01</span><h4>Are.na</h4></div>
+          <div class="what">Бібліотечно-тиха мережа. Контент = першорядний, інтерфейс — майже відсутній. Крадемо: мережа без алгоритму, рамки замість тіней, серифні підписи.</div>
+          <div class="url">are.na</div>
+        </div>
+      </div>
+
+      <!-- Ref 02 — Read.cv -->
+      <div class="ref span-4">
+        <div class="preview" style="background: #fafafa;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#fafafa"/>
+            <text x="40" y="80" font-family="serif" font-size="32" fill="#0a0a0a" font-style="italic">Designer,</text>
+            <text x="40" y="118" font-family="serif" font-size="32" fill="#0a0a0a">building tools.</text>
+            <text x="40" y="158" font-family="sans-serif" font-size="11" fill="#888">Currently at Cosmos — previously</text>
+            <text x="40" y="174" font-family="sans-serif" font-size="11" fill="#888">at Stripe, Figma, Read.cv.</text>
+            <circle cx="320" cy="100" r="44" fill="#e0e0e0"/>
+            <line x1="40" y1="220" x2="360" y2="220" stroke="#e0e0e0"/>
+            <text x="40" y="244" font-family="sans-serif" font-size="10" fill="#999">— Work ————————</text>
+            <text x="40" y="264" font-family="sans-serif" font-size="12" fill="#0a0a0a">Type system, 2024</text>
+            <text x="40" y="282" font-family="sans-serif" font-size="12" fill="#888">Cosmos — visual tools</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">02</span><h4>Read.cv</h4></div>
+          <div class="what">Серифні дисплейні italic. Багато повітря. CV як редакційна сторінка. Крадемо: «Newsreader Italic» для заголовків, тонкі розділові лінії.</div>
+          <div class="url">read.cv</div>
+        </div>
+      </div>
+
+      <!-- Ref 03 — Cosmos -->
+      <div class="ref span-4">
+        <div class="preview" style="background: #111;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#111"/>
+            <rect x="30" y="40" width="120" height="160" fill="#222" rx="6"/>
+            <rect x="160" y="60" width="100" height="140" fill="#333" rx="6"/>
+            <rect x="270" y="30" width="100" height="120" fill="#2a2a2a" rx="6"/>
+            <rect x="40" y="210" width="80" height="60" fill="#262626" rx="6"/>
+            <rect x="180" y="210" width="180" height="60" fill="#1c1c1c" rx="6"/>
+            <text x="30" y="22" font-family="serif" font-style="italic" font-size="14" fill="#999">Cosmos · daily</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">03</span><h4>Cosmos.so</h4></div>
+          <div class="what">Куратований мудборд-сервіс, де порядок — частина естетики. Крадемо: формат «карти різних розмірів у грилі», який ми вже спробували в варіанті B.</div>
+          <div class="url">cosmos.so</div>
+        </div>
+      </div>
+
+      <!-- Ref 04 — Lemon8 -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #FFF6E5;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#FFF6E5"/>
+            <circle cx="80" cy="100" r="70" fill="#FFE08A"/>
+            <circle cx="200" cy="180" r="50" fill="#FFB199"/>
+            <circle cx="310" cy="80" r="40" fill="#7BDED2"/>
+            <rect x="30" y="220" width="340" height="60" fill="#fff" rx="14" opacity="0.7"/>
+            <text x="50" y="250" font-family="sans-serif" font-size="14" fill="#161210" font-weight="600">Soft sunrise mood</text>
+            <text x="50" y="266" font-family="sans-serif" font-size="10" fill="#666">3 min read · 2.1k saves</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">04</span><h4>Lemon8</h4></div>
+          <div class="what">М'які теплі форми, заокруглені круги, високий контраст з пастельним фоном. Крадемо: ілюстративний підхід до плейсхолдерів.</div>
+          <div class="url">lemon8-app.com</div>
+        </div>
+      </div>
+
+      <!-- Ref 05 — Mubi -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #0E0E12;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#0E0E12"/>
+            <rect x="20" y="40" width="170" height="220" fill="#222"/>
+            <rect x="200" y="40" width="80" height="105" fill="#1a1a22"/>
+            <rect x="290" y="40" width="80" height="105" fill="#1a1a22"/>
+            <rect x="200" y="155" width="170" height="105" fill="#1a1a22"/>
+            <text x="20" y="28" font-family="serif" font-style="italic" font-size="11" fill="#fff">Now Showing — May 16</text>
+            <text x="200" y="190" font-family="sans-serif" font-size="9" fill="#888">Iranian · 142 min</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">05</span><h4>Mubi</h4></div>
+          <div class="what">Темний кінотон, серйозне ставлення до контенту. Крадемо: ідею «куратор каже що дивитись сьогодні» — Editor's Pick щоранку.</div>
+          <div class="url">mubi.com</div>
+        </div>
+      </div>
+
+      <!-- Ref 06 — NYT Cooking -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #f7f7f5;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#f7f7f5"/>
+            <text x="40" y="60" font-family="serif" font-size="26" fill="#0a0a0a" font-style="italic">The Five Best</text>
+            <text x="40" y="86" font-family="serif" font-size="26" fill="#0a0a0a">Pasta Recipes</text>
+            <line x1="40" y1="100" x2="360" y2="100" stroke="#0a0a0a"/>
+            <text x="40" y="120" font-family="sans-serif" font-size="10" fill="#666">By Sam Sifton · 8 min read</text>
+            <rect x="40" y="140" width="100" height="100" fill="#e8d4c0"/>
+            <rect x="150" y="140" width="100" height="100" fill="#d8c4b0"/>
+            <rect x="260" y="140" width="100" height="100" fill="#e0cab4"/>
+            <text x="40" y="262" font-family="serif" font-size="13" fill="#0a0a0a">Carbonara, Aglio · Pomodoro</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">06</span><h4>NYT Cooking</h4></div>
+          <div class="what">Газетна редакційність — заголовок, дата, by-line, ілюстрації як рівноправні. Крадемо: систему рубрик і дисплейний серив.</div>
+          <div class="url">cooking.nytimes.com</div>
+        </div>
+      </div>
+
+      <!-- Ref 07 — Niice -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #1A1A22;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#1A1A22"/>
+            <rect x="30" y="40" width="76" height="100" fill="#FFC93C"/>
+            <rect x="116" y="40" width="76" height="100" fill="#FF6B6B"/>
+            <rect x="202" y="40" width="76" height="100" fill="#4ECDC4"/>
+            <rect x="288" y="40" width="82" height="100" fill="#A06CD5"/>
+            <rect x="30" y="150" width="120" height="100" fill="#1F1F2A"/>
+            <rect x="160" y="150" width="120" height="100" fill="#2A2A38"/>
+            <rect x="290" y="150" width="80" height="100" fill="#1F1F2A"/>
+            <text x="30" y="278" font-family="sans-serif" font-size="10" fill="#888">Niice — design inspiration</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">07</span><h4>Niice</h4></div>
+          <div class="what">Мудборд-сервіс із насиченими кольоровими блоками поряд із чорно-білим. Крадемо: відважне співставлення кольору і нейтрального.</div>
+          <div class="url">niice.co</div>
+        </div>
+      </div>
+
+      <!-- Ref 08 — Letterboxd -->
+      <div class="ref span-6">
+        <div class="preview" style="background: #14181C;">
+          <svg width="100%" height="100%" viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="600" height="300" fill="#14181C"/>
+            <text x="40" y="50" font-family="sans-serif" font-size="14" fill="#fff" font-weight="600">YOUR WEEK · MAY 10-16</text>
+            <g>
+              <rect x="40" y="70" width="80" height="120" fill="#2A2D36"/>
+              <rect x="130" y="70" width="80" height="120" fill="#2A2D36"/>
+              <rect x="220" y="70" width="80" height="120" fill="#2A2D36"/>
+              <rect x="310" y="70" width="80" height="120" fill="#2A2D36"/>
+              <rect x="400" y="70" width="80" height="120" fill="#2A2D36"/>
+              <rect x="490" y="70" width="80" height="120" fill="#2A2D36"/>
+            </g>
+            <g font-family="sans-serif" font-size="10" fill="#7e8794">
+              <text x="40" y="208">★★★★½</text>
+              <text x="130" y="208">★★★</text>
+              <text x="220" y="208">★★★★</text>
+              <text x="310" y="208">★★★★★</text>
+              <text x="400" y="208">★★½</text>
+              <text x="490" y="208">★★★★</text>
+              <text x="40" y="226">Whiplash</text>
+              <text x="130" y="226">Tenet</text>
+              <text x="220" y="226">Past Lives</text>
+            </g>
+            <text x="40" y="280" font-family="sans-serif" font-size="11" fill="#fff" opacity="0.7">6 films · 11h 24m · 1 rewatch</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">08</span><h4>Letterboxd</h4></div>
+          <div class="what">Community-first, але без алгоритмічного фарша. Лейаут «Твій тиждень» — приклад того, як давати юзеру межу замість нескінченної стрічки.</div>
+          <div class="url">letterboxd.com</div>
+        </div>
+      </div>
+
+      <!-- Ref 09 — Are.na blocks -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #ECE4D2;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#ECE4D2"/>
+            <text x="40" y="40" font-family="serif" font-size="13" fill="#222" font-style="italic">Хроніка вуличного гумору</text>
+            <line x1="40" y1="56" x2="360" y2="56" stroke="#222" stroke-width="0.4"/>
+            <text x="40" y="84" font-family="serif" font-size="28" fill="#222">Сьогодні</text>
+            <text x="40" y="118" font-family="serif" font-size="28" fill="#444" font-style="italic">сміявся весь</text>
+            <text x="40" y="152" font-family="serif" font-size="28" fill="#444" font-style="italic">район</text>
+            <text x="40" y="184" font-family="sans-serif" font-size="11" fill="#666">Стрічка · 14 травня · 8 мемів</text>
+            <line x1="40" y1="248" x2="120" y2="248" stroke="#E25668" stroke-width="2"/>
+            <text x="40" y="276" font-family="sans-serif" font-size="10" fill="#666">Edited by Дарʼя К.</text>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">09</span><h4>Reuters Tear-out</h4></div>
+          <div class="what">Газетна форма + редакторський підпис. Крадемо: «Edited by» — підкреслення живого куратора замість анонімного алгоритму.</div>
+          <div class="url">— editorial archive</div>
+        </div>
+      </div>
+
+      <!-- Ref 10 — Smashed graph paper -->
+      <div class="ref span-3">
+        <div class="preview" style="background: #fff;">
+          <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="300" fill="#fff"/>
+            <defs>
+              <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+                <path d="M22 0H0V22" fill="none" stroke="#E25668" stroke-width="0.3" opacity="0.4"/>
+              </pattern>
+            </defs>
+            <rect width="400" height="300" fill="url(#grid)"/>
+            <text x="40" y="80" font-family="serif" font-style="italic" font-size="44" fill="#161210">Memoplex</text>
+            <text x="40" y="118" font-family="serif" font-size="14" fill="#161210">vol. 01 — issue 1</text>
+            <text x="40" y="140" font-family="sans-serif" font-size="11" fill="#666">Manifest, principles, voice</text>
+            <line x1="40" y1="180" x2="120" y2="180" stroke="#E25668" stroke-width="3"/>
+          </svg>
+        </div>
+        <div class="meta">
+          <div class="num-name"><span class="num">10</span><h4>Manifest pages</h4></div>
+          <div class="what">Riso-естетика, графічна папір-сітка, видавнича подача. Крадемо: обкладинка-маніфест «що ми робимо», як перший екран лендингу.</div>
+          <div class="url">— working refs</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ───── Tokens + Typography ───── -->
+    <div class="tokens-grid">
+
+      <!-- Palette + Spacing + Radii -->
+      <div class="panel">
+        <h3>Дизайн-токени</h3>
+        <p class="panel-lead">Усе, що використаємо в редизайні. Кольори зменшено й розшаровано (ink ↔ paper ↔ accent).</p>
+
+        <div class="mono" style="margin-bottom: 10px; margin-top: 4px;">Колір — primitives</div>
+        <div class="swatch-row">
+          <div class="swatch"><div class="chip" style="background: #161210;"></div><div class="lbl"><b>Ink</b><span class="hex">#161210</span></div></div>
+          <div class="swatch"><div class="chip" style="background: #F4EFE6;"></div><div class="lbl"><b>Cream</b><span class="hex">#F4EFE6</span></div></div>
+          <div class="swatch"><div class="chip" style="background: #FAF6EE;"></div><div class="lbl"><b>Paper</b><span class="hex">#FAF6EE</span></div></div>
+        </div>
+
+        <div class="mono" style="margin-bottom: 10px;">Колір — accents</div>
+        <div class="swatch-row">
+          <div class="swatch"><div class="chip" style="background: #E25668;"></div><div class="lbl"><b>Coral</b><span class="hex">#E25668</span></div></div>
+          <div class="swatch"><div class="chip" style="background: #0E5C55;"></div><div class="lbl"><b>Teal</b><span class="hex">#0E5C55</span></div></div>
+          <div class="swatch"><div class="chip" style="background: #D9A24C;"></div><div class="lbl"><b>Mustard</b><span class="hex">#D9A24C</span></div></div>
+        </div>
+
+        <div class="mono" style="margin-bottom: 10px;">Spacing scale · 4-base</div>
+        <div class="scale-row">
+          <div class="step" style="width: 8px; height: 8px;"></div>
+          <div class="step" style="width: 12px; height: 12px;"></div>
+          <div class="step" style="width: 20px; height: 20px;"></div>
+          <div class="step" style="width: 32px; height: 32px;"></div>
+          <div class="step" style="width: 48px; height: 48px;"></div>
+          <div class="step" style="width: 80px; height: 80px;"></div>
+        </div>
+        <div class="mono" style="margin-bottom: 24px; color: var(--ink-60);">4 · 8 · 12 · 20 · 32 · 48 · 80</div>
+
+        <div class="mono" style="margin-bottom: 10px;">Радіуси</div>
+        <div class="radii-row">
+          <div class="rb" style="border-radius: 0;">0</div>
+          <div class="rb" style="border-radius: 4px;">4</div>
+          <div class="rb" style="border-radius: 12px;">12</div>
+          <div class="rb" style="border-radius: 28px;">28</div>
+          <div class="rb" style="border-radius: 999px;">∞</div>
+        </div>
+        <div class="mono" style="color: var(--ink-60);">переважно 0 (документ) / 999 (пілюлі)</div>
+      </div>
+
+      <!-- Typography -->
+      <div class="panel">
+        <h3>Типографічна пара</h3>
+        <p class="panel-lead">Серив (italic) для голосу та емоції; сан-серив для довгих текстів; моно для метаданих.</p>
+
+        <div class="type-spec">
+          <div class="label">
+            <span class="mono">Display · Newsreader Italic</span>
+            <span class="mono">56 / 72 · -2.5% tracking</span>
+          </div>
+          <div class="sample-display">Сміявся весь район.</div>
+        </div>
+
+        <div class="type-spec">
+          <div class="label">
+            <span class="mono">Body · Manrope 400/500</span>
+            <span class="mono">16 / 26 · 0% tracking</span>
+          </div>
+          <div class="sample-body">Мемоплекс — не агрегатор, а редакційне видання. Один редактор, 30 мемів на день, і чітка межа сесії: «це все на сьогодні».</div>
+        </div>
+
+        <div class="type-spec">
+          <div class="label">
+            <span class="mono">Meta · JetBrains Mono</span>
+            <span class="mono">11 · 8% tracking · uppercase</span>
+          </div>
+          <div class="sample-mono">VOL. 01 · ISSUE 138 · EDITED BY ДАРʼЯ К.</div>
+        </div>
+
+        <div style="margin-top: 24px; padding: 16px 18px; background: var(--paper); border: 1px solid var(--rule); font-size: 13px; line-height: 1.6;">
+          <div class="mono" style="color: var(--coral); margin-bottom: 6px;">Принцип пари</div>
+          Заголовок завжди має italic-вкраплення — це підпис автора. Якщо italic нема — це службовий текст, не голос. Так розрізняємо «що каже редакція» від «що каже система».
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── SECTION 04: CLAUDE CODE PROMPT ─────────── -->
+<span class="anchor" id="prompt"></span>
+<section class="main">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-num">04</div>
+      <div class="sec-title">
+        <h2>Експорт у <span class="it">Claude Code</span></h2>
+        <p>Готовий промпт, який збирає висновки з рамок, dark patterns і мудборду в одну задачу. Скопіюй і встав у новій сесії Claude Code в репі Мемоплексу.</p>
+      </div>
+    </div>
+
+    <div class="prompt-box">
+      <div class="prompt-head">
+        <span class="l">prompt.md · ready to paste</span>
+        <button class="copy-btn" onclick="
+          const p = document.getElementById('prompt-text').innerText;
+          navigator.clipboard.writeText(p).then(() => {
+            this.innerText = '✓ Скопійовано';
+            setTimeout(() => this.innerText = 'Copy', 1800);
+          });
+        ">Copy</button>
+      </div>
+<pre id="prompt-text"><span class="c"># Мемоплекс — рефакторинг v0.2: чесний редакційний продукт</span>
+
+<span class="k">Контекст.</span> Поточний код у репі — це прототип агрегатора Reddit-мемів з 4 видами (стрічка / топ / канали / чат). Аудит знайшов 5 dark patterns і 19 евристичних проблем. Завдання — переписати продукт як <span class="v">«редакційне видання»</span>, а не «безкінечну стрічку».
+
+<span class="k">Цілі релізу v0.2.</span>
+1. Прибрати темні патерни. Конкретно:
+   • видалити «HOT»-бейдж і replace «14 хв тому» → реальний час публікації («7:30 ранку»)
+   • замінити infinite scroll на «денний раціон»: 30 мемів і стоп з повідомленням «Це все на сьогодні. Повертайся завтра о 8:00.»
+   • кнопка «Поділитися» копіює <span class="v">memoplex.app/m/[id]</span>, не reddit-permalink. Окрема кнопка «Джерело».
+   • лічильники з Reddit підписувати: «❤️ 4.8k на Reddit», не як власні лайки.
+   • «Підписатися» — або робоча (зберігає у localStorage), або зняти.
+2. Привести бренд у відповідність до позиціонування. Поки джерела англомовні — назва: <span class="v">«Мемоплекс — щоденник свіжих мемів»</span>, без слова «українські».
+3. Додати «Today's Editor» — псевдонім куратора + 1 рядок його коментаря над стрічкою.
+
+<span class="k">Дизайн-токени (нові).</span>
+<span class="v">--cream: #F4EFE6;  --paper: #FAF6EE;  --ink: #161210;
+--coral: #E25668; --teal: #0E5C55; --mustard: #D9A24C;
+--space-4: 4px; --space-8: 8px; --space-12: 12px;
+--space-20: 20px; --space-32: 32px; --space-48: 48px; --space-80: 80px;
+--radius-0: 0; --radius-4: 4px; --radius-12: 12px; --radius-pill: 999px;</span>
+
+<span class="k">Шрифти.</span>
+• <span class="v">Newsreader Italic</span> для заголовків (display 56/72, -2.5% tracking)
+• <span class="v">Manrope 400/500</span> для тіла (16/26)
+• <span class="v">JetBrains Mono</span> для метаданих, дрібний (11, uppercase, 8% tracking)
+
+<span class="k">Принцип italic-вкраплення.</span> У кожному великому заголовку 1-2 слова в italic — це підпис редакції. У службовому тексті italic не використовується. Це візуальний індикатор «що каже редактор» vs «що каже система».
+
+<span class="k">Архітектура змін у коді.</span>
+1. <span class="v">data.jsx</span> → токени до :root через CSS-змінні
+2. <span class="v">reddit.jsx</span> → додати <span class="v">absoluteTime()</span> поряд з <span class="v">relativeTime()</span>; mapper присвоює час як «7:30 ранку» формат
+3. <span class="v">shared.jsx</span> → у <span class="v">share()</span> копіювати <span class="v">memoplex.app/m/[id]</span>; додати окрему функцію <span class="v">shareSource()</span>
+4. <span class="v">feed-magazine.jsx</span> → винести «Today's Editor»-блок; замінити <span class="v">useInfiniteScroll</span> на ліміт 30 + endcap-компонент <span class="v">SessionLimit</span>
+5. Додати компонент <span class="v">RedditAttribution</span> для лічильників: «❤️ 4.8k на Reddit», а не голий «4.8k»
+6. <span class="v">index.html</span> → завантажити Newsreader; theme-color у meta = #F4EFE6
+7. WCAG: aria-label на іконкових кнопках; контраст вторинного тексту з .45 → .60
+
+<span class="k">Що НЕ робити в v0.2.</span> Не додавати темну тему. Не додавати реальну авторизацію. Не міняти структуру URL — лишити чисті pathname-роути. Чат і завантаження — лишити як експеримент, не виносити в основний flow.
+
+<span class="k">Перевірка готовності.</span>
+□ Усі 5 dark patterns закриті (див. розділ 02 аудиту)
+□ Контраст всіх текстів ≥ AA для розміру
+□ Стрічка має чітку межу сесії
+□ Назва бренду відповідає реальному контенту
+□ Italic-принцип витриманий у 100% заголовків
+</pre>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="f-row">
+      <div class="l">Мемоплекс / документація редизайну v0.2</div>
+      <div class="r">16.V.2026 · INTERNAL</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Smooth scroll for anchor nav
+  document.querySelectorAll('nav.top-nav a').forEach(a => {
+    a.addEventListener('click', (e) => {
+      const id = a.getAttribute('href').slice(1);
+      const t = document.getElementById(id);
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); history.pushState(null, '', a.getAttribute('href')); }
+    });
+  });
+  // Active section highlight in nav
+  const sections = ['critique','patterns','moodboard','prompt'];
+  const navLinks = Object.fromEntries(sections.map(s => [s, document.querySelector(`nav.top-nav a[href="#${s}"]`)]));
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        Object.values(navLinks).forEach(a => a && a.classList.remove('active'));
+        const id = e.target.id;
+        if (navLinks[id]) navLinks[id].classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => { const el = document.getElementById(s); if (el) obs.observe(el); });
+</script>
+
+<script>
+  // Auto-print: чекаємо завантаження шрифтів + невелика затримка
+  (async () => {
+    try {
+      if (document.fonts && document.fonts.ready) await document.fonts.ready;
+    } catch (e) {}
+    setTimeout(() => window.print(), 500);
+  })();
+</script>
+
+</body>
+</html>
